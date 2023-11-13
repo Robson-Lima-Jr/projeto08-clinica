@@ -36,6 +36,20 @@ html, body {
     margin: 40px auto;
 }
 
+h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p{
+    width: 100%;
+    max-width: 680px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 /* header */
 header {
     background-color: #00CAD1;
@@ -83,8 +97,74 @@ header nav a:hover {
 }
 
 /* Sobre */
-#sobre {
-    
+.sobre-div {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-div h4 {
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.sobre-div ul {
+    margin-left: 30px;
+}
+
+/* Especialidades página principal */
+.especialidades .link-page {
+    display: flex;
+    justify-content: center;
+}
+
+.especialidades .link-page a {
+    padding: 10px;
+    margin: 15px auto 0px;
+    background-color: #00CAD1;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.especialidades .link-page a:hover {
+    background-color: #328588;
+}
+
+.galeria-img {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.galeria-img figure {
+    width: 100%;
+    flex: 1 1 300px;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.521);
+}
+
+.galeria-img figure img {
+    width: 100%;
+}
+
+.galeria-img figcaption {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Contato */
+#contato p {
+    margin: 10px auto;
+}
+
+#contato iframe {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
 }
 
 /* Seta para subir a tela */
@@ -94,9 +174,30 @@ header nav a:hover {
     right: 5%;
 
     font-size: 40px;
-    background-color: #00CAD1;
+    background-color: #d2e7e7;
     color: var(--text-color);
     font-weight: bold;
     border-radius: 15px;
     border: 3px solid var(--text-color);
+}
+
+/* footer */
+footer {
+    padding: 20px 0px;
+    background-color: #0C6E71;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    padding: 2px 4px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+footer a:hover {
+    background-color: white;
+    color: var(--text-color);
 }
