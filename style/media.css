@@ -4,7 +4,7 @@
     --text-color: #0000008c;
 }
 
-@media and (max-width: 425px) {
+@media screen and (max-width: 425px) {
 
     /* header */
     header .container-base {
@@ -33,6 +33,11 @@
     #sobre figure img {
         display: none;
     }
+
+    /* especialidades */
+    .galeria-img figure {
+        width: 100%;
+    }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
@@ -52,7 +57,7 @@
 
     /* banner */
     .banner {
-        height: 300px;
+        height: 290px;
     }
 
     .banner h1,
