@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+:root {
+    --text-color: #0000008c;
+}
+
+@media screen and (max-width: 425px) {
+
+    /* header */
+    header .container-base {
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+
+    header nav {
+        width: 100%;
+        padding-top: 5px;
+        justify-content: space-around;
+        border-top: 1px solid var(--text-color);
+    }
+
+    /* banner */
+    .banner {
+        height: 200px;
+    }
+
+    .banner h1,
+    .banner h2 {
+        font-size: 28px;
+    }
+
+    /* sobre */
+    #sobre figure img {
+        display: none;
+    }
+
+    /* especialidades */
+    .galeria-img figure {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+    /* header */
+    header .container-base {
+        flex-direction: column;
+        padding-bottom: 5px;
+    }
+
+    header nav {
+        width: 100%;
+        padding-top: 5px;
+        justify-content: space-evenly;
+        border-top: 1px solid var(--text-color);
+    }
+
+    /* banner */
+    .banner {
+        height: 290px;
+    }
+
+    .banner h1,
+    .banner h2 {
+        font-size: 32px;
+    }
+
+    /* sobre */
+    #sobre figure img {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* banner */
+    .banner {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    /* banner */
+    .banner {
+        height: 500px;
+    }
+}
