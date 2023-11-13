@@ -105,7 +105,7 @@ header nav a:hover {
 }
 
 .sobre-div h4 {
-    font-size: 25px;
+    font-size: 21px;
     font-weight: normal;
     margin-bottom: 10px;
 }
@@ -137,12 +137,13 @@ header nav a:hover {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
 .galeria-img figure {
     width: 100%;
-    flex: 1 1 300px;
+    flex: 0 0 300px;
     box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.521);
 }
 
