@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+:root {
+    --text-color: #0000008c;
+}
+
+/* Links de Navegação dentro da pagina */
+#links-in-page {
+    margin: 20px auto 30px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#links-in-page a{
+    padding: 0px 10px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    border-bottom: 2px solid #00CAD1;
+}
+
+#links-in-page a:hover {
+    transition: 0.5s;
+    color: white;
+    background-color: #00CAD1;
+    border-bottom: 2px solid var(--text-color);
+}
+
+main h4 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* especialidades gerais */
+.area-esp .txt-esp {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.area-esp .txt-esp h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* table area */
+.table-area {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.table-area figure {
+    width: 300px;
+}
+
+.table-area figure img {
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+table thead th {
+    padding: 6px 10px;
+    background-color: #00CAD1;
+    color: white;
+    text-align: left;
+}
+
+table tbody td {
+    padding: 10px;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #CCCECC;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #F1F1F1;
+}
