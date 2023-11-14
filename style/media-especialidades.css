@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root {
+    --text-color: #0000008c;
+}
+
+@media screen and (max-width: 425px) {
+    .container-base {
+        padding: 0px;
+    }
+
+    .table-area figure {
+        display: none;
+    }
+
+    table thead th {
+        padding: 10px 10px;
+    }
+    
+    table tbody td {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .table-area figure {
+        display: none;
+    }
+}
