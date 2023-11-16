@@ -19,6 +19,7 @@ html, body {
     height: 100%;
     font-family: 'Source Sans 3', sans-serif;
     color: var(--text-color);
+    scroll-behavior: smooth;
 }
 
 .container-base {
@@ -49,6 +50,10 @@ p{
     margin: auto;
     text-align: center;
     margin-bottom: 20px;
+}
+
+img {
+    object-fit: cover;
 }
 
 /* header */

@@ -5,10 +5,6 @@
 }
 
 @media screen and (max-width: 425px) {
-    .container-base {
-        padding: 0px;
-    }
-
     .table-area figure {
         display: none;
     }
